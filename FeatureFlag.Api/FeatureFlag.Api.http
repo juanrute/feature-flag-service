@@ -1,0 +1,51 @@
+@FeatureFlag.Api_HostAddress = http://localhost:5263
+
+
+# Feature Flag Service API Documentation
+## This document provides a guide to the Feature Flag Service API, including endpoints for managing feature flags.First example is set Production as partial
+### Update a feature flag by id
+PUT {{FeatureFlag.Api_HostAddress}}/api/featureflags/11111111-1111-1111-1111-111111111111
+Accept: application/json
+Content-Type: application/json  
+
+{
+  "Environment": "Production",
+  "Isenabled": true,
+  "Percentage": 50 
+}
+
+### Consult feature flags for Production and userAdmin -> its true
+GET {{FeatureFlag.Api_HostAddress}}/api/featureflags/11111111-1111-1111-1111-111111111111/usuarioAdmin/Production
+Accept: application/json
+
+### Consult feature flags for Production and userDev -> its false
+GET {{FeatureFlag.Api_HostAddress}}/api/featureflags/11111111-1111-1111-1111-111111111111/usuarioDev/Production
+Accept: application/json
+
+
+### Get all feature flags
+GET {{FeatureFlag.Api_HostAddress}}/api/featureflags/
+Accept: application/json
+
+### Get detail feature flags by name
+GET {{FeatureFlag.Api_HostAddress}}/api/featureflags/DisabledFeature
+Accept: application/json
+
+### Get detail feature flags by id
+GET {{FeatureFlag.Api_HostAddress}}/api/featureflags/11111111-1111-1111-1111-111111111111
+Accept: application/json
+
+
+### Create a new feature flag
+POST {{FeatureFlag.Api_HostAddress}}/api/featureflags/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "NewFeatureFlagTest",
+  "description": "This is a new feature flag for testing purposes."
+}
+
+### Delete a feature flag by id
+DELETE {{FeatureFlag.Api_HostAddress}}/api/featureflags/22222222-2222-2222-2222-222222222222
+Accept: application/json
