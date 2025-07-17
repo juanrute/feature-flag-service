@@ -1,0 +1,10 @@
+namespace FeatureFlag.Contracts.Responses;
+
+
+public class FeatureFlagResponse
+{
+    public required Guid Id { get; set; }
+    public required string Name { get; set; }
+    public required string Description { get; set; }
+    public DateTime CreatedAt { get; set; }
+}

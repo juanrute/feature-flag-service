@@ -1,3 +1,5 @@
+using FeatureFlag.Application.Models;
+
 namespace FeatureFlag.Application.Services;
 
 public interface IAuditService
