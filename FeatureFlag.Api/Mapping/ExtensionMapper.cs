@@ -1,5 +1,5 @@
 using FeatureFlag.Contracts.Requests;
-using FeatureFlag.Application.Models;
+using FeatureFlag.Domain.FeatureFlag;
 using FeatureFlag.Contracts.Responses;
 
 public static class ContractMapping

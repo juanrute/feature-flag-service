@@ -1,4 +1,4 @@
-namespace FeatureFlag.Application.Models;
+namespace FeatureFlag.Domain.Audit;
 
 public class Audit
 {

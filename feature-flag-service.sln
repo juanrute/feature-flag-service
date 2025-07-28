@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureFlag.Contracts", "Fe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureFlag.Application", "FeatureFlag.Application\FeatureFlag.Application.csproj", "{47B4A074-E3CC-46FC-BDEA-C679307EA620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureFlag.Domain", "FeatureFlag.Domain\FeatureFlag.Domain.csproj", "{FE24EF2A-A390-4B39-8B8D-4A7A8BC6C5ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{47B4A074-E3CC-46FC-BDEA-C679307EA620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47B4A074-E3CC-46FC-BDEA-C679307EA620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47B4A074-E3CC-46FC-BDEA-C679307EA620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE24EF2A-A390-4B39-8B8D-4A7A8BC6C5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE24EF2A-A390-4B39-8B8D-4A7A8BC6C5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE24EF2A-A390-4B39-8B8D-4A7A8BC6C5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE24EF2A-A390-4B39-8B8D-4A7A8BC6C5ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

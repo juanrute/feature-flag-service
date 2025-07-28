@@ -1,4 +1,4 @@
-namespace FeatureFlag.Application.Models;
+namespace FeatureFlag.Domain.FeatureFlag;
 
 public class FeatureToggle
 {

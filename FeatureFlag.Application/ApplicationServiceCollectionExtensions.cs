@@ -1,7 +1,7 @@
 using FeatureFlag.Application.Repositories;
 using FeatureFlag.Application.Services;
 using Microsoft.Extensions.DependencyInjection;
-using FeatureFlag.Application.Models;
+using FeatureFlag.Domain.FeatureFlag;
 
 namespace FeatureFlag.Application;
 

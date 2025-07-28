@@ -1,4 +1,4 @@
-using FeatureFlag.Application.Models;
+using FeatureFlag.Domain.Audit;
 
 namespace FeatureFlag.Application.Services;
 
